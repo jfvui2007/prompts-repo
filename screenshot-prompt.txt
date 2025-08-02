@@ -3,14 +3,16 @@ Please ignore any previous context and answer this question independently.
 
 ---
 
-【一】界面类型描述（保存字段名：environment）  
+【一】界面类型描述（保存字段名：visual）  
 请用一句自然的中文口语句，描述你当前看到的app界面或文档内容属于哪一类。  
 它可能是：一个社交媒体界面、水费通知、截图的网页等。
+请注意截图中可能有真实场景图，请不要把这个图当成我所处的环境，而应该表述界面上展示了什么场景
 
 输入：图像内容  
 示例：  
-我在看雷军的微博界面  
-我拍了一张横滨水费缴费通知单
+我在看雷军的微博app界面  
+我在看横滨水费缴费通知单
+我在看一个教室的照片，照片上有课桌椅
 
 ---
 
@@ -29,7 +31,16 @@ Please ignore any previous context and answer this question independently.
 禁止写“无有效信息”“图中上有ABC三个字”等表达。请严格仿照以上格式。
 ---
 
-【三】关键词提取（保存字段名：keyword）  
+【三】拍摄目的（保存字段名：activity）  
+请用一句自然中文句子，推测你为何截图或拍下这张文档。可以是为了记录某个时间、费用、任务提醒，或是保存页面内容、截图某个重要画面等。
+
+示例：  
+我截图是为了记录会议开始时间是 8 点。  
+我拍下这张账单，是为了记录里面的消费类目和金额。
+
+---
+
+【四】关键词提取（保存字段名：keyword）  
 请根据上方内容，提取最能代表这张截图的三个关键词。每个关键词前加 `#` 号，语言自然、简洁。
 
 示例：  
@@ -42,7 +53,8 @@ Please ignore any previous context and answer this question independently.
 请仅输出以下 JSON 对象，**不要添加代码块标记、注释或多余解释文字**：
 
 {
-  "environment": "...",
+  "visual": "...",
   "info": "...",
+  "activity": "...",
   "keyword": ["#关键词1", "#关键词2", "#关键词3"]
 }
