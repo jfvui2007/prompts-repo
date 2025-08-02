@@ -12,4 +12,3 @@ Please ignore any previous context and answer this question independently.
 第二段：
 如果 OCR 里有一些值得记录的重要信息，请做中文摘要呈现，摘要文字不超过150字。如果元数据中无数据，或内容与图无关，或为乱码，直接省略本段，无需解释。禁止凭图像臆测文字。
 请直接输出内容本身，无需解释和提示语。语言自然真实，不用修饰或夸张。
-1
