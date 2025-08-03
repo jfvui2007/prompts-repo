@@ -9,7 +9,7 @@ Please ignore any previous context and answer this question independently.
 {environment}
 
 输出示例：  
-上午8点多，我主要在北京站附近的广场，10点32分以后去了光华路的新华书店，随后去了星巴克。
+上午8点多，我在北京站附近的广场，10点32分以后去了光华路的新华书店，随后去了星巴克。
 ---
 
 【二】所见内容总结（保存字段名：partial-visuals）  
