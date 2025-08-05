@@ -56,6 +56,6 @@ Please ignore any previous context and answer this question independently.
   "daily-theme": "...",
   "partial-enviroments": "...",
   "partial-visuals": "...",
-  "partial-activities": "...",
+  "today-theme": "...",
   "partial-keyword": ["#关键词1", "#关键词2", "#关键词3"]
 }
