@@ -82,18 +82,14 @@
 
 {
 “daily-theme”: “…”,
-“partial-enviroments”: “…”,
-“partial-visuals”: “…”,
-“today-theme”: “…”,
-“partial-cost”: “…”,
-“partial-info”: “…”,
-“partial-keyword”: [”#关键词1”, “#关键词2”, “#关键词3”, “#关键词4”, “#关键词5”]
+“daily-enviroments”: “…”,
+“daily-visuals”: “…”,
+“daily-cost”: “…”,
+“daily-info”: “…”,
+“daily-keyword”: [”#关键词1”, “#关键词2”, “#关键词3”, “#关键词4”, “#关键词5”]
 }
 以下是所有事件记录
 
 ⸻
 {events}
 ⸻
-
-
-
