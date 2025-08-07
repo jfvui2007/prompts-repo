@@ -87,9 +87,9 @@
 “daily-theme”: “…”,
 “partial-enviroments”: “…”,
 “partial-visuals”: “…”,
+“today-theme”: “…”,
 “partial-cost”: “…”,
 “partial-info”: “…”,
-“today-theme”: “…”,
 “partial-keyword”: [”#关键词1”, “#关键词2”, “#关键词3”, “#关键词4”, “#关键词5”]
 }
 以下是所有事件记录
